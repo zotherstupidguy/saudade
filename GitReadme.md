@@ -8,11 +8,8 @@ patch and update all associated metadata, and noted that this would not scale to
 with fellow maintainers could require 250 such actions at a time. For his design criteria, he specified that patching should take no 
 more than three seconds,[8] and added three additional points:
 
-Take Concurrent Versions System (CVS) as an example of what not to do; if in doubt, make the exact opposite decision[10]
-Support a distributed, BitKeeper-like workflow[10]
-Include very strong safeguards against corruption, either accidental or malicious[9]
-These criteria eliminated every then-existing version-control system except Monotone. Performance considerations excluded this, too.[10] 
-So immediately after the 2.6.12-rc2 Linux kernel development release, Torvalds set out to write his own system.[10]
+This is awesome, thats why gitlapse is also awesome ;)
+Now, lets make it ready to see the world!
 
 The name "git" was given by Linus Torvalds when he wrote the very
 first version. He described the tool as "the stupid content tracker"
@@ -26,3 +23,6 @@ and the name as (depending on your mood):
   - "global information tracker": you're in a good mood, and it actually
   works for you. Angels sing, and a light suddenly fills the room.
   - "goddamn idiotic truckload of sh*t": when it breaks
+
+Cheers,
+zotherstupidguy!
